@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="JavaFXApplication1.Controller">
+   <children>
+      <Pane layoutX="84.0" layoutY="62.0" prefHeight="277.0" prefWidth="433.0">
+         <effect>
+            <ImageInput>
+               <source>
+                  <Image url="file:/E:/scrabble.jpg" />
+               </source>
+            </ImageInput>
+         </effect>
+      </Pane>
+      <Button layoutX="224.0" layoutY="350.0" mnemonicParsing="false" onAction="#playpressed" prefHeight="36.0" prefWidth="153.0" text="PLAY">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

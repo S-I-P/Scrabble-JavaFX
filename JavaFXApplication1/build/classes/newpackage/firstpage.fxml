@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newpackage.Controller">
+   <children>
+      <Button layoutX="245.0" layoutY="330.0" mnemonicParsing="false" onAction="#playbuttonpressed" prefHeight="42.0" prefWidth="111.0" text="Play" textFill="#1d4d94">
+         <effect>
+            <DropShadow color="#379ad0" height="30.33" radius="14.665" spread="0.11" width="30.33" />
+         </effect>
+         <font>
+            <Font name="Calibri Bold" size="23.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="251.0" fitWidth="392.0" layoutX="105.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../download.jpeg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

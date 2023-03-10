@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newpackage.Controller">
+   <children>
+      <GridPane layoutX="84.0" layoutY="132.0" prefHeight="65.0" prefWidth="432.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="10.0" prefWidth="154.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="278.0" minWidth="10.0" prefWidth="278.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="68.0" minHeight="10.0" prefHeight="67.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label alignment="CENTER" prefHeight="39.0" prefWidth="221.0" text="Username :" textFill="#3783b1">
+               <font>
+                  <Font name="Perpetua Titling MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usertext" prefHeight="41.0" prefWidth="216.0" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="180.0" layoutY="75.0" prefHeight="41.0" prefWidth="240.0" text="WELCOME" textFill="#2753a1">
+         <font>
+            <Font name="Britannic Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="254.0" layoutY="214.0" mnemonicParsing="false" onAction="#loginpressed" prefHeight="22.0" prefWidth="93.0" text="Submit">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.01" color="#3363b8" height="66.22" radius="40.5775" width="98.09" />
+         </effect>
+      </Button>
+      <Label alignment="CENTER" layoutX="137.0" layoutY="289.0" prefHeight="28.0" prefWidth="164.0" text="Don't have an account?">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="313.0" layoutY="283.0" mnemonicParsing="false" onAction="#createnewaccountpressed" prefHeight="41.0" prefWidth="107.0" text="Sign up">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <effect>
+            <InnerShadow choke="0.01" color="#182d7c" height="50.65" radius="41.8725" width="118.84" />
+         </effect>
+      </Button>
+   </children>
+</Pane>

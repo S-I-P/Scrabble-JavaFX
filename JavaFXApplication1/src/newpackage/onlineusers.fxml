@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="newpackage.Controller">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" />
+      <TextField fx:id="otheruser" layoutX="217.0" layoutY="379.0" prefHeight="42.0" prefWidth="267.0" />
+      <Button layoutX="285.0" layoutY="464.0" mnemonicParsing="false" onAction="#playrequest" prefHeight="35.0" prefWidth="111.0" text="Challenge" />
+      <Label alignment="CENTER" layoutX="239.0" layoutY="208.0" prefHeight="117.0" prefWidth="194.0" text="Enter the name of &#10;the user you want &#10;to play with :&#10;" textFill="#31cd84">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="364.0" layoutY="33.0" mnemonicParsing="false" onAction="#onlineplayers" prefHeight="35.0" prefWidth="120.0" text="Refresh" />
+      <Label layoutX="60.0" layoutY="33.0" prefHeight="42.0" prefWidth="182.0" text="Online Players" textFill="#1a5aa8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
